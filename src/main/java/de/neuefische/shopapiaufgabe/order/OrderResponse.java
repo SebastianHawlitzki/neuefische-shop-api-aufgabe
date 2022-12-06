@@ -1,4 +1,4 @@
-package de.neuefische.shopapiaufgabe;
+package de.neuefische.shopapiaufgabe.order;
 
 import de.neuefische.shopapiaufgabe.product.Product;
 import lombok.AllArgsConstructor;

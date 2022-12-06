@@ -1,6 +1,5 @@
 package de.neuefische.shopapiaufgabe.order;
 
-import de.neuefische.shopapiaufgabe.OrderResponse;
 import de.neuefische.shopapiaufgabe.shop.ShopService;
 import org.springframework.web.bind.annotation.*;
 

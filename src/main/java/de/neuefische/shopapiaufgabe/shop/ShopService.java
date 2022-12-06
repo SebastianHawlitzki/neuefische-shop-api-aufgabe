@@ -1,6 +1,6 @@
 package de.neuefische.shopapiaufgabe.shop;
 
-import de.neuefische.shopapiaufgabe.OrderResponse;
+import de.neuefische.shopapiaufgabe.order.OrderResponse;
 import de.neuefische.shopapiaufgabe.order.Order;
 import de.neuefische.shopapiaufgabe.order.OrderRepository;
 import de.neuefische.shopapiaufgabe.product.Product;
