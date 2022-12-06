@@ -27,16 +27,16 @@ public class ShopService {
 
     public List<OrderResponse> getOrders() {
         List<Order> orders = orderRepository.getOrders();
-        List<OrderResponse> orderRespons = new ArrayList<>();
+        List<OrderResponse> orderResponse = new ArrayList<>();
         for (Order o : orders) {
             List<Product> products = new ArrayList<>();
             for (int id : o.getProductIds()) {
                 products.add(productRepository.getProductById(id));
             }
-            orderRespons.add(new OrderResponse(o.getId(), products));
+            orderResponse.add(new OrderResponse(o.getId(), products));
         }
 
-        return orderRespons;
+        return orderResponse;
     }
 
     public Order getOrderById(int id) {
